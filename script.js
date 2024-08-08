@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="card-body">
                             <h5 class="card-title">${product.name}</h5>
                             <p class="card-text">${product.description}</p>
-                            <p class="card-text"><strong>$${product.price}</strong></p>
+                            <p class="card-text"><strong>RP.${product.price}</strong></p>
                             <a href="product.html?id=${product.id}" class="btn btn-primary">View More</a>
                         </div>
                     </div>
